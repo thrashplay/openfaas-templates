@@ -1,0 +1,15 @@
+{
+  "name": "openfaas-function",
+  "version": "0.0.1",
+  "description": "OpenFaaS Function",
+  "files": [
+    "lib/**"
+  ],
+  "license": "MIT",
+  "main": "./lib/handler.js",
+  "private": true,
+  "types": "./lib/handler.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
+}
